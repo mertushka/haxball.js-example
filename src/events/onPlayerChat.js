@@ -2,9 +2,9 @@ module.exports = {
   name: "onPlayerChat",
   execute(room, player, message) {
     const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const serverPrefix = "!";
+    const roomPrefix = "/";
     const prefix = new RegExp(
-      `^(<@!?${player.id}>|${escapeRegex(serverPrefix)})\\s*`
+      `^(<@!?${room.players.cache.first().id}>|${escapeRegex(roomPrefix)})\\s*`
     );
 
     if (!prefix.test(message)) return;
