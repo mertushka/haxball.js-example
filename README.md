@@ -1,4 +1,4 @@
-<h1 id="title" align="center">Example Bot</h1>
+<h1 id="title" align="center">Example Bot (DEPRECATED)</h1>
 
 <h4 align="center">An example starter project for Haxball.js</h4>
 
