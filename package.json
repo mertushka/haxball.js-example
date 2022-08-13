@@ -1,0 +1,15 @@
+{
+  "name": "haxball.js-example",
+  "version": "1.0.0",
+  "description": "An example starter project for Haxball.JS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "mertushka",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/collection": "^0.2.1",
+    "haxball.js": "^2.1.1"
+  }
+}
